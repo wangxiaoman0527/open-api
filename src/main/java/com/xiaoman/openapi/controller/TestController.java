@@ -1,27 +1,19 @@
 package com.xiaoman.openapi.controller;
 
 
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.apache.catalina.User;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * 测试管理API
- *
- *专门为测试开发的接口
- * @author your-name
- */
+
 @RestController
 @RequestMapping("/test")
+@Tag(name = "API网关", description = "统一API调用入口")
 public class TestController {
-    /**
-     * 测试用户ID获取用户信息
-     *
-     * @param userId 用户唯一标识
-     * @return 用户详细信息
-     */
+
     @GetMapping("/{userId}")
     public User getUser(@PathVariable Long userId) {
         // 实现代码

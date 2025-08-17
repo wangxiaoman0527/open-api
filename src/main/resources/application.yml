@@ -14,7 +14,7 @@ springdoc:
     path: /api-docs
   swagger-ui:
     # swagger-ui路径
-    path: /swagger-ui.html
+    path: /api.html
     # 持久化认证数据
     persistAuthorization: true
   info:
