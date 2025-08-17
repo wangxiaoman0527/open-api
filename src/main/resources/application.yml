@@ -24,16 +24,9 @@ springdoc:
     description: '描述：API文档的详细信息'
     # 版本
     version: '版本号: 1.0.0'
-#  components:
-#    # 鉴权方式配置
-#    security-schemes:
-#      apiKey:
-#        type: APIKEY
-#        name: Authorization
-#        in: HEADER
-#  # 分组配置
-#  group-configs:
-#    - group: open-api
-#      packages-to-scan: com.xiaoman.openapi.controller
+  # 分组配置
+  group-configs:
+    - group: open-api
+      packages-to-scan: com.xiaoman.openapi.controller
 
 

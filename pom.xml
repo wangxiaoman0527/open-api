@@ -102,7 +102,7 @@
                         </path>
                     </annotationProcessorPaths>
                     <compilerArgs>
-                        <arg>-Atherapi.include.packages=com.xiaoman.openapi.controller</arg>
+                        <arg>-Atherapi.retain.javadoc=com.xiaoman.openapi.controller.*</arg>
                     </compilerArgs>
                 </configuration>
             </plugin>
