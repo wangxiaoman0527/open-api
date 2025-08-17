@@ -1,7 +1,11 @@
 spring:
  application:
   name: open-api
-
+ datasource:
+   url: jdbc:mysql://localhost:3306/openapi?useSSL=false&serverTimezone=UTC
+   username: root
+   password: root
+   driver-class-name: com.mysql.cj.jdbc.Driver
 server:
   port: 8080
 

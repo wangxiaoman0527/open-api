@@ -1,4 +1,4 @@
-package com.xiaoman.openapi.vo;
+package com.xiaoman.openapi.model.vo;
 
 
 /**

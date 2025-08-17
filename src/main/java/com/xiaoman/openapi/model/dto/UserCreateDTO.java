@@ -1,4 +1,4 @@
-package com.xiaoman.openapi.dto;
+package com.xiaoman.openapi.model.dto;
 
 
 /**
