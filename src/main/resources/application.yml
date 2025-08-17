@@ -1,0 +1,39 @@
+spring:
+ application:
+  name: open-api
+
+server:
+  port: 8080
+
+# springdoc-openai 配置
+springdoc:
+  api-docs:
+    # 是否开启接口文档
+    enabled: true
+    # OpenAPI文档的路径
+    path: /api-docs
+  swagger-ui:
+    # swagger-ui路径
+    path: /swagger-ui.html
+    # 持久化认证数据
+    persistAuthorization: true
+  info:
+    # 标题
+    title: 'API文档'
+    # 描述
+    description: '描述：API文档的详细信息'
+    # 版本
+    version: '版本号: 1.0.0'
+#  components:
+#    # 鉴权方式配置
+#    security-schemes:
+#      apiKey:
+#        type: APIKEY
+#        name: Authorization
+#        in: HEADER
+#  # 分组配置
+#  group-configs:
+#    - group: open-api
+#      packages-to-scan: com.xiaoman.openapi.controller
+
+
