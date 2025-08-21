@@ -91,6 +91,18 @@
             <artifactId>mybatis-plus-spring-boot3-starter</artifactId>
             <version>3.5.5</version>
         </dependency>
+
+        <dependency>
+        <groupId>com.github.binarywang</groupId>
+        <artifactId>weixin-java-miniapp</artifactId>
+        <version>4.5.5.B</version>
+    </dependency>
+
+        <dependency>
+            <groupId>com.github.binarywang</groupId>
+            <artifactId>weixin-java-pay</artifactId>
+            <version>4.5.5.B</version>
+        </dependency>
     </dependencies>
 
     <build>
